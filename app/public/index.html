@@ -2,68 +2,95 @@
 <!doctype html>
 <html>
 <head>
-   <meta charset="utf-8">
-   <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <style type="text/css">.panel, .panel .panel-body, .well.well-sm { width: 900px; }</style>
-    <title>iVoox Unlocker</title>
+  <meta charset="utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <title>iVoox Unlocker</title>
 </head>
 <body>
-<div style="margin: 2em auto; width: 900px">
-    <h1 style="color:#555"><span class="glyphicon glyphicon-headphones" style="color:orange"></span> iVoox Unlocker</h1>
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <p>¿Aburrido/a de no tener poder de decisión sobre cómo puedes acceder a los audios de tus podcasts favoritos de <strong>iVoox</strong>?
-            ¿Estás tan harto/a como yo de que te obliguen a utilizar la aplicación oficial para Android o iOS para escuchar los podcasts sin feed público?</p>
-            <p>Con <strong>iVoox Unlocker</strong> podrás consumir <strong>los podcasts</strong> de iVoox <strong>que no son públicos</strong> desde tu aplicación de podcasts favorita para Android, iOS o Windows. Sin aduanas, ataduras ni ningún otro tipo de restricciones.</p>
-            <p>Porque <strong>la tecnología de <em>podcasting</em> debe ser libre, estándar y no estar atada a plataformas ni corporativismos</strong>.</p>
+  <div class="container h-100 d-flex justify-content-center">
+    <div class="col py-3">
+      <h1 class="display-4 mb-3">
+        <i class="fas fa-headphones-alt mr-m3" style="color: #ff8800;"></i>
+        iVoox Unlocker
+      </h1>
+      <div class="card my-3">
+        <div class="card-body">
+          <p>¿Aburrido/a de no tener poder de decisión sobre cómo puedes acceder a los audios de tus podcasts favoritos de <strong>iVoox</strong>?
+          ¿Estás tan harto/a como yo de que te obliguen a utilizar la aplicación oficial para Android o iOS para escuchar los podcasts sin feed público?</p>
+          <p>Con <strong>iVoox Unlocker</strong> podrás consumir <strong>los podcasts</strong> de iVoox <strong>que no son públicos</strong> desde tu aplicación de podcasts favorita para Android, iOS o Windows. Sin aduanas, ataduras ni ningún otro tipo de restricciones.</p>
+          <p>Porque <strong>la tecnología de <em>podcasting</em> debe ser libre, estándar y no estar atada a plataformas ni corporativismos</strong>.</p>
         </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <p><strong>Instrucciones:</strong></p>
-            <ol>
-                <li>Copia y pega la URL de la página del podcast en iVoox.</li>
-                <li>Haz clic sobre el botón "Obtener".</li>
-                <li>Copia y pega la dirección del navegador a tu aplicación de podcasts favorita.</li>
-            </ol>
+      </div>
+      <div class="card my-3">
+        <div class="card-body">
+          <p><strong>Instrucciones:</strong></p>
+          <ol>
+            <li>Copia y pega la URL de la página del podcast en iVoox.</li>
+            <li>Haz clic sobre el botón "Obtener".</li>
+            <li>Copia y pega la dirección del navegador a tu aplicación de podcasts favorita.</li>
+          </ol>
         </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-body"> 
-            <p><strong>Pega a continuación el enlace al podcast de iVoox:</strong></p>
-            <form class="navbar-form" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" name="url" placeholder="Ej: http://www.ivoox.com/podcast-universo-iker-oficial_sq_f1269157_1.html" style="width:500px">
-                </div>
-                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-download-alt"></span> Obtener</button>
-            </form>
+      </div>
+      <div class="card my-3">
+        <div class="card-body"> 
+          <p><strong>Pega a continuación el enlace al podcast de iVoox:</strong></p>
+          <form action="podcast" class="form-group row py-2">
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="url" placeholder="Ej: http://www.ivoox.com/podcast-universo-iker-oficial_sq_f1269157_1.html">
+            </div>
+            <div class="col-sm-3">
+              <button type="submit" class="btn btn-primary mr-1"><i class="fas fa-download"></i> Obtener</button>
+              <button id="copy" type="button" class="btn btn-secondary" title="Feed RSS copiado" data-toggle="tooltip" data-trigger="click"><i class="fas fa-copy"></i> Copiar</button>
+            </div>
+          </form>
         </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <p><strong>¿Cómo se cuándo un podcast de iVoox es privado?</strong></p>
-            <p><img align="left" alt="" src="images/suscripcion.png" style="margin-right:10px"> Cuando al hacer clic sobre la opción de "Compartir", la pestaña "Suscripción" tiene el siguiente aspecto. 
-            Justo debajo de donde pone "Por RSS" verás que pone <strong><em>"El feed de ese podcast no es público"</em></strong>. <br><br>
-            Esto significa que no podrás escuchar este podcast desde ningún otro sitio que no sea la página web de iVoox o su aplicación oficial.<br><br>
-            Sin embargo, esta utilidad te permitirá suscribirte al feed de ese podcast en cualquier cliente de podcast pese a que no sea público. Tan solo copia y pega la dirección a la que te redirigirá al hacer clic sobre "Obtener" en tu aplicación de podcasts favoritos para oír los programas.</p>
+      </div>
+      <div class="card my-3">
+        <div class="card-body">
+          <p><strong>¿Cómo se cuándo un podcast de iVoox es privado?</strong></p>
+          <p><img align="left" alt="" src="images/suscripcion.png" style="margin-right:10px"> Cuando al hacer clic sobre la opción de "Compartir", la pestaña "Suscripción" tiene el siguiente aspecto. 
+          Justo debajo de donde pone "Por RSS" verás que pone <strong><em>"El feed de ese podcast no es público"</em></strong>. <br><br>
+          Esto significa que no podrás escuchar este podcast desde ningún otro sitio que no sea la página web de iVoox o su aplicación oficial.<br><br>
+          Sin embargo, esta utilidad te permitirá suscribirte al feed de ese podcast en cualquier cliente de podcast pese a que no sea público. Tan solo copia y pega la dirección a la que te redirigirá al hacer clic sobre "Obtener" en tu aplicación de podcasts favoritos para oír los programas.</p>
         </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <p><strong>Ejemplos de podcasts</strong> (puedes copiar y pegar los enlaces a tu cliente de podcasts):</p>
-            <ul>
-                <li><a href="index.php?url=https%3A%2F%2Fwww.ivoox.com%2Fpodcast-oh-my-lol-la-vida-moderna_sq_f1160064_1.html">podcast-oh-my-lol-la-vida-moderna_sq_f1160064_1.html</a></li>
-                <li><a href="index.php?url=https%3A%2F%2Fwww.ivoox.com%2Fpodcast-universo-iker-oficial_sq_f1269157_1.html">podcast-universo-iker-oficial_sq_f1269157_1.html</a></li>
-                <li><a href="index.php?url=https%3A%2F%2Fwww.ivoox.com%2Fpodcast-escobula-brujula-podcast_sq_f169241_1.html">podcast-escobula-brujula-podcast_sq_f169241_1.html</a></li>
-            </ul>
+      </div>
+      <div class="card my-3">
+        <div class="card-body">
+          <p><strong>Ejemplos de podcasts</strong> (puedes copiar y pegar los enlaces a tu cliente de podcasts):</p>
+          <ul>
+            <li><a href="index.php?url=https%3A%2F%2Fwww.ivoox.com%2Fpodcast-oh-my-lol-la-vida-moderna_sq_f1160064_1.html">podcast-oh-my-lol-la-vida-moderna_sq_f1160064_1.html</a></li>
+            <li><a href="index.php?url=https%3A%2F%2Fwww.ivoox.com%2Fpodcast-milenio-live-oficial_sq_f1269157_1.html">podcast-milenio-live-oficial_sq_f1269157_1.html</a></li>
+            <li><a href="index.php?url=https%3A%2F%2Fwww.ivoox.com%2Fpodcast-escobula-brujula-podcast_sq_f169241_1.html">podcast-escobula-brujula-podcast_sq_f169241_1.html</a></li>
+          </ul>
         </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <small><strong>Aviso legal:</strong> Esta página no descarga ni almacena ningún audio MP3, tan solo obtiene y post-procesa los ficheros XML de los podcasts de la plataforma <strong>iVoox</strong>.</small>
+        </div>
+      </div>
     </div>
-    <div class="well well-sm"><small><strong>Aviso legal:</strong> Esta página no descarga ni almacena ningún audio MP3, tan solo obtiene y post-procesa los ficheros XML de los podcasts de la plataforma <strong>iVoox</strong>.</small></div>
-</div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+      var copyButton = $('button#copy');
+      copyButton.click(function(value) {
+        var tempInput = $("<input type='text'>");
+        tempInput.val(window.location.href + 'podcast?url=' +  $("input[name=url").val());
+        $("body").append(tempInput);
+        tempInput[0].select();
+        document.execCommand("copy");
+        tempInput.remove();
+        setTimeout(function() { $('.tooltip').remove(); }, 3000);
+      });
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
 </body>
 </html>
